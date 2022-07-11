@@ -3,7 +3,7 @@ class cantdivideby2
 {
     static void Main()
     {
-        for (int x = 0; x < 99; x++)
+        for (int x = 0; (x < 99 + 1); x++)
         {
             if (x % 2 != 0)
             {
